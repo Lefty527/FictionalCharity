@@ -1,0 +1,60 @@
+html , body {
+    background-color: black;
+} 
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+ #dog2 {
+    display: flex;
+    width:  50%; 
+    height: 600px;
+}
+.fade-in-image{
+    opacity: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.fade-in-image:hover {
+    opacity: 100%;
+    transition: opacity 7s;
+  }
+
+#starting {
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    color: blue;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+}
+
+.last-text {
+    float:left;
+    text-align: left;
+    display: inline;
+    width:80%;
+    
+}
+
+.donate {
+    text-align: center;
+    color:blue
+}
+
+
+
+.thanks {
+    text-align: center;
+    color: blue;
+}
+
+img.dog-gif{
+    width: 100%;
+    height: auto;
+  }
