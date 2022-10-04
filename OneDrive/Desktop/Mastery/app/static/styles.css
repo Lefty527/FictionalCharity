@@ -1,0 +1,177 @@
+body{
+    background: #f4722b
+}
+
+@font-face {
+    font-family: TF2build;
+    src: url(fonts/tf2build.ttf);
+  }
+
+  @font-face {
+    font-family: Tf2sec;
+    src: url(fonts/TF2secondary.ttf);
+  }
+h1{
+    text-align: center;
+    font-family: TF2build;
+    font-size: 75px;
+}
+
+.tpbread{
+    display: inline-block;;
+
+}
+
+h2 {
+    font-size: 25px;
+    font-family: TF2build;
+}
+
+p{
+    color: #f5e5c1;
+    -webkit-text-stroke: .03vh #3e3e3e;
+    font-family: Tf2sec;
+}
+
+img{
+    background-color: #3e3e3e;
+}
+
+.Soldier{
+    display: inline-block;
+}
+
+.Heavy{
+    display: inline-block;
+}
+
+.Scout{
+    display: inline-block;
+    position: relative;
+    right: 13vw;
+}
+
+.Pyro {
+    position: relative;
+    left: 13vw;
+    display: inline-block;
+}
+
+.Engineer{
+    display: inline-block;
+    position: relative;
+    left: 12vw;
+}
+
+.Demoman {
+    display: inline-block;
+    position: relative;
+    right: 11.5vw;
+}
+
+.Medic{
+    display: inline-block;
+    position: relative;
+    right: 14.5vw;
+}
+
+.Sniper{
+    display: inline-block;
+    position: relative;
+    left: -0.5vw;
+
+}
+
+.Spy{
+    display: inline-block;
+    position: relative;
+    left: 13vw;
+}
+
+.mem {
+    text-align: center;
+}
+
+.test{
+    text-align: center;
+}
+
+.chucklenuts p{
+    width: 10em;
+}
+
+.chucklenuts {
+    display: inline-block;
+    text-align: center;
+}
+
+.apple4 {
+    text-align:center;
+}
+
+.Engi_Dscript {
+    position: relative;
+    left: 100px;
+    top: -5px;
+}
+
+.Chad_Dscript {
+    position: relative;
+    top: -165px;
+    left:4px
+}
+
+.Demo_Dscript {
+    position: relative;
+    top: -830px;
+    right: 95px;
+}
+
+.Scunt_Dscript {
+    position: relative;
+    right: 100px;
+    top: -5px;
+}
+
+.Soldier_Dscript {
+    position: relative;
+    top: -364px;
+    left: 10px;
+}
+ 
+.Pyro_Dscript {
+    position: relative;
+    left: 110px;
+    top: -150px;
+}
+
+.Sniper_Dscript{
+    position: relative;
+    top: -713px;
+    left: 10px
+}
+
+.Spy_Dscript{
+    position: relative;
+    right: -100px;
+    top: -30px
+}
+
+.Doctor_Dscript{
+    position: relative;
+    left: -100px;
+    top: -12px
+}
+
+.bonk {
+    position: relative;
+    top: 160px;
+    text-align: center;
+    word-spacing: 10vw;
+    font-size: 65px;
+}
+
+a {
+    color: #f5e5c1;
+    font-family: Tf2sec;
+}

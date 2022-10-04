@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static 'styles.css' %}">
+    </head>
+    <body>
+
+         {%for L , K in MD.items%}
+             {% if L == category%}
+                 <h1>{{K.team_name}}</h1>
+                 <div class="test">
+                     {%for apple in K.image%}
+                         <div class="tpbread">
+                            <img class="{{apple}}" src="{{apple}}">
+                         </div>
+                     {% endfor %}
+                 </div>
+                 <div class="mem">
+                     {%for Q in K.members%}
+                        <h2 class="{{Q}}">{{Q}}</h2>
+                     {% endfor %}
+                 </div>
+                 <div class="apple4">
+                     {%for X, Y in K.desc%}
+                        <div class="chucklenuts">
+                            <p class="{{Y}}">{{X}}</p>
+                        </div>
+                     {% endfor %}
+                 </div>
+             {% endif %}
+         {% endfor %}
+    </body>
+</html>
